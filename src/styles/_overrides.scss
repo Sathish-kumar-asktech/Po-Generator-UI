@@ -1,0 +1,26 @@
+.nav-item {
+  .nav-link {
+    display: flex;
+    align-items: center;
+    text-transform: capitalize;
+
+    &.active {
+      color: #fff;
+      background: rgba(255, 255, 255, .23);
+      opacity: 1;
+    }
+  }
+}
+
+.sidebar .nav a {
+  transition: all 150ms ease-in;
+  text-transform: capitalize;
+}
+
+.card-header {
+  text-transform: capitalize;
+}
+
+.badge:empty {
+  display: inline-block;
+}

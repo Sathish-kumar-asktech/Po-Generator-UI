@@ -1,0 +1,37 @@
+.cr-sidebar .nav .nav-link {
+    font-size: 13px;
+    font-family: "Nunito, sans-serif",Arial, sans-serif;
+}
+
+.navbar-brand span {
+    font-size: 17px;
+    font-family: "Nunito, sans-serif",Arial, sans-serif;
+}
+
+.button {
+    margin: 20px 25px;
+    width: fit-content;
+    padding: 12px 28px;
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: .1rem;
+    border: none;
+    text-transform: capitalize !important;
+    background: transparent;
+    box-shadow: inset -20px -16px 0px 2px #01352C;
+    border-radius: 70px;
+    /* color : #446A46; */
+    color: #F2F9F1 !important;
+    transition: all 0.5s cubic-bezier(.66, .00, .34, 1.00);
+  }
+  
+  .button {
+    box-shadow: inset 0px 0px 0px 0px rgb(2 184 72);
+    background: rgb(33, 30, 24);
+    transform: translateY(-5px);
+    color: rgb(230, 221, 221);
+    font-weight: 700;
+  }
+  
+  
+  

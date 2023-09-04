@@ -1,0 +1,71 @@
+.defactsimge1 img {
+    width: 50px;
+    height: 40px;
+    border: 1px solid #0069D9;
+    background-size: 100%;
+  }
+  .defactsimge1 img:hover{
+      width: 300px;
+      height: 300px;
+      cursor: zoom-in;
+      background-size: 150%;
+    
+  }
+
+
+  .defactsimge2 img {
+    width: 50px;
+    height: 40px;
+    border: 1px solid #0069D9;
+    background-size: 100%;
+  }
+  .defactsimge2 img:hover{
+      width: 300px;
+      height: 300px;
+      cursor: zoom-in;
+      background-size: 150%;
+    
+  }
+
+  .defactsimge3 img {
+    width: 50px;
+    height: 40px;
+    border: 1px solid #0069D9;
+    background-size: 100%;
+  }
+  .defactsimge3 img:hover{
+      width: 300px;
+      height: 300px;
+      cursor: zoom-in;
+      background-size: 150%;
+    
+  }
+
+  .defactsimge4 img {
+    width: 50px;
+    height: 40px;
+    border: 1px solid #0069D9;
+    background-size: 100%;
+  }
+  .defactsimge4 img:hover{
+      width: 300px;
+      height: 300px;
+      cursor: zoom-in;
+      background-size: 150%;
+    
+  }
+
+
+  
+  .defactdescription {
+    min-width: 699;
+}
+.defactdescription th {
+    padding: 5px;
+    background-color: #0069D9;
+    color: white;
+}
+.defactdescription td {
+    padding: 5px;
+    color: rgb(136, 126, 126);
+}

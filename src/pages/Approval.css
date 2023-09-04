@@ -1,0 +1,715 @@
+
+.qasub input {
+  width: 200px;
+  margin-top: 50px;
+
+  /* -webkit-transition: all 0.30s ease-in-out;
+  -moz-transition: all 0.30s ease-in-out;
+  -ms-transition: all 0.30s ease-in-out;
+  -o-transition: all 0.30s ease-in-out; */
+  outline: none;
+  padding: 3px 0px 3px 3px;
+  margin: 5px 1px 3px 0px;
+  border: 1px solid #a3ccee;
+}
+.errorstyles{
+  display: flex;
+  flex-direction: row;
+}
+.adbutons{
+  margin-top: 30px;
+  margin-left: 10px;
+}
+.savebutt{
+  margin-top: -20px;
+  margin-left:-30px;
+}
+.titlesub{
+  width: 100%;
+  height: 83%;
+  margin-top: -10px;
+}
+.qasubtitle{
+  color: #0069D9;
+  text-align: center;
+
+}
+.inputofadd {
+  margin-top: 20px;
+  margin-left: 10px;
+  display: flex;
+}
+.inputofadd  input{
+  height: 30px;
+  width: 100px;
+  margin-left: -50px;
+}
+.inputofaddamount input {
+  height: 35px;
+  width: 100px;
+  margin-left: -60px;
+}
+.inputofadd label {
+  margin-top: -30px;
+  margin-left: 30px;
+}
+.inputofaddamount label {
+  margin-top: -60px;
+  margin-left: 30px;
+}
+.qasub Select {
+  width: 200px;
+  margin-top: 5px;
+ height: 50px;
+  /* -webkit-transition: all 0.30s ease-in-out;
+  -moz-transition: all 0.30s ease-in-out;
+  -ms-transition: all 0.30s ease-in-out;
+  -o-transition: all 0.30s ease-in-out; */
+  outline: none;
+  padding: 3px 0px 3px 3px;
+  margin: 5px 1px 3px 0px;
+  border: 1px solid #a3ccee;
+}
+.qasub {
+  display: flex;
+ 
+}
+.cardwidhdd {
+width: 200px;
+  height: 0px;
+  align-self: flex-start;
+  margin-top: -12px;
+margin-left: -30px;
+}
+
+.inputfieldsss{
+  margin-top: 40px;
+}
+.cardwidhdd label {
+  margin-top: 15px;
+}
+.updaesubcat td select {
+  width: 200px;
+}
+.updaesubcat {
+  display: none;
+  margin-left: 250px;
+}
+.updaesubcat th {
+  background-color: #6068BE;
+  color: whitesmoke;
+padding: 0;
+}
+.updaesubcat td {
+  padding: 0.3;
+}
+
+.updatesubcard {
+  max-width: 600px;
+}
+.headersub{
+  display: flex;
+  
+}
+
+.edition{
+  font-size: 2px;
+}
+.subcard  {
+max-width: 1200px;
+  display: flex;
+
+  place-items: center;
+  align-self: center;
+ 
+}
+.errors {
+  color: red;
+}
+
+.subcategory th {
+padding: 5px;
+  background-color: #0069D9;
+  color: white;
+}
+.addbutton {
+  width: 200px;
+  border-radius: 20px;
+  background-color:#0069D9;
+  border: none;
+  color: whitesmoke;
+  height: 30px;
+  outline-width: 0;
+}
+.inpusearch {
+  border: none;
+  width: 200px;
+  outline-width: 0;
+
+  
+}
+
+
+.addsubcate {
+  display: none;
+  margin-left: 200px;
+}
+.subcategorycard {
+  margin-left: 250px;
+}
+.search {
+  border: 1px solid black;
+  padding: 5px;
+  display: flex;
+  flex-direction: row;
+  border-radius: 20px;
+}
+
+.subcategory td {
+  padding: 5px;
+  color: rgb(136, 126, 126);
+}
+.qasub input {
+  width: 1100;
+  margin-top: 5px;
+}
+
+.serchdiv {
+  display: flex;
+ 
+  justify-content: flex-end;
+}
+.closebutton {
+  margin-left: 550px;
+  margin-top: -60px;
+}
+.category input {
+  width: 500px;
+  display: flex;
+  flex-direction: column;
+  margin-top: 5px;
+  /* -webkit-transition: all 0.30s ease-in-out;
+  -moz-transition: all 0.30s ease-in-out;
+  -ms-transition: all 0.30s ease-in-out;
+  -o-transition: all 0.30s ease-in-out; */
+  outline: none;
+  padding: 3px 0px 3px 3px;
+  margin: 5px 1px 3px 0px;
+  border: 1px solid #a3ccee;
+ 
+}
+
+.headerpo{
+  display: flex;
+  flex-direction: column;
+ 
+}
+.poges{
+  display: flex;
+}
+.ponumber{
+  display: flex;
+  flex-direction: column;
+}
+.Todate1 input {
+  display: flex; 
+width: 150px;
+margin-top: 10px;
+background-color: rgb(252, 252, 252);
+outline: none;
+margin-left: 2px;
+padding: 3px 0px 3px 3px;
+border: 1px solid #a3ccee;   
+}
+.Todate1 {
+ margin-left: 10px;
+ 
+}
+.Deliveryss{
+  margin-left: 40px;
+  margin-top: 15px;
+}
+.termslables{
+  margin-top: 15px;
+ margin-left: 20px;
+}
+.tearmsconditions{
+  display: flex;
+  flex-direction: row;
+}
+.tearmsconditions Input {
+  margin-top: 7px;
+  margin-left: 10px;
+}
+.poss{
+  margin-top: 15px;
+}
+.qty{
+  height: 30px;
+  width: 40px;
+  
+}
+
+.hedercard{
+  height: 60px;
+  margin-top: -20px;
+}
+.Todate1s input {
+  display: flex; 
+width: 150px;
+margin-top: 12px;
+background-color: rgb(252, 252, 252);
+outline: none;
+height: 30px;
+margin-left: 13px;
+padding: 3px 0px 3px 3px;
+border: 1px solid #a3ccee;   
+}
+.InspectionReportForm {
+  display: flex;
+
+  margin-left: 20px;
+}
+
+.Todate1s {
+  margin-left: 10px;
+
+ 
+ 
+}
+
+.dates{
+  display: flex;
+  flex-direction: row;
+}
+.titledefect{
+  width: 100%;
+  height: 80%;
+  margin-top: -10px;
+}
+.titledefect h6 {
+  text-align: center;
+  color:#0069D9;
+  margin-top: -5px;
+}
+
+.category select {
+  width: 500px;
+  display: flex;
+  flex-direction: column;
+  margin-top: 5px;
+  /* -webkit-transition: all 0.30s ease-in-out;
+  -moz-transition: all 0.30s ease-in-out;
+  -ms-transition: all 0.30s ease-in-out;
+  -o-transition: all 0.30s ease-in-out; */
+  outline: none;
+  padding: 3px 0px 3px 3px;
+  margin: 5px 1px 3px 0px;
+  border: 1px solid #a3ccee;
+}
+.Qacat th{
+  padding: 1px;
+  background-color: #9C73AA;
+  color: white;
+}
+ .Qacats{
+  margin-top: -20px;
+ }
+.Qacats th{
+  padding: 1px;
+  background-color: #58A7AA;
+  color: white;
+}
+.cardcontent {
+  display: flex;
+  
+}
+.Qacat td {
+  
+  color: rgb(136, 126, 126);
+}
+.major15 {
+  display: flex;
+  flex-direction: column;
+
+  margin-left: 20px;
+}
+.major14 {
+  display: flex;
+  flex-direction: column;
+
+  margin-left: 20px;
+}
+.major14 input {
+width: 100px;
+outline: none;
+padding: 3px 0px 3px 3px;
+margin: 5px 1px 3px 0px;
+border: 1px solid #a3ccee;
+}
+.major14 select {
+  width: 500px;
+  outline: none;
+padding: 3px 0px 3px 3px;
+margin: 5px 1px 3px 0px;
+border: 1px solid #a3ccee;
+}
+.addbutton {
+  width: 80px;
+  border-radius: 20px;
+  background-color:#0069D9;
+  border: none;
+  color: whitesmoke;
+  height: 30px;
+  margin-left: 20px;
+  outline-width: 0;
+}
+.addbutton1 {
+  width: 80px;
+  border-radius: 20px;
+  background-color:#0069D9;
+  border: none;
+  margin-top: 30px;
+  color: whitesmoke;
+  height: 30px;
+
+  outline-width: 0;
+}
+.major15 input {
+  width: 100px;
+  outline: none;
+  padding: 3px 0px 3px 3px;
+  margin: 5px 1px 3px 0px;
+  border: 1px solid #a3ccee;
+}
+
+.inpusearch {
+  border: none;
+  width: 200px;
+  display: none;
+  outline-width: 0;
+
+  
+}
+
+.addsubcate {
+  display: none;
+}
+.search {
+  border: 1px solid black;
+  padding: 5px;
+  display: flex;
+  flex-direction: row;
+  border-radius: 20px;
+}
+.serchdiv {
+  display: flex;
+  justify-content: flex-end;
+}
+.closebutton {
+  display: flex;
+  
+}
+.headertext {
+
+  font-size: medium;
+color: #0069D9;
+text-align: center;
+
+}
+.close{
+  display: flex;
+  margin-top: -60px;
+}
+
+
+.updatecardhed {
+  padding: 0px;
+  background-color: #0069D9;
+}
+
+
+.addcateee{
+  display: none;
+}
+.updaedefactcate {
+  display: none;
+}
+.updaedefactcate td {
+  padding: 0;
+}
+.updaedefactcate th {
+  padding: 0;
+  background-color: #6068BE;
+    color: whitesmoke;
+}
+.qatbl td {
+  padding: 0;
+}
+.close {
+  display: flex;
+  justify-content: center;
+}
+.catcard {
+  max-width: 600px;
+}
+
+
+.addcateecory {
+  margin-left: 250px;
+}
+
+.updefcard {
+  max-width: 600px;
+}
+
+.centertheupdatecard {
+  margin-left: 250px;
+}
+
+.errors {
+  color: red;
+}
+
+.productselet{
+  width: 200px;
+  height: 0px;
+  align-self: flex-start;
+ 
+margin-left: -30px;
+}
+.productselet label
+{
+  margin-top: 15px;
+}
+@media (max-width: 699px) {
+    .category input {
+       width: 200px;
+      }
+      .productselet{
+        width: 300px;
+        align-self: center;
+        margin-left: 45px;
+      
+      }
+      .poss b{
+       
+      text-align: center;
+      margin-left: 10px;
+      }
+      .cardcontent {
+        display: flex;
+        flex-direction: column;
+   margin-top: 10px;
+        
+    }
+
+    .cardwidhdd   {
+
+      width: 300px;
+
+    }
+    .major14 input {
+      width: 200px;
+    
+    }
+    .major15 input {
+      width: 100px;
+     
+    }
+      .category select {
+        width: 270px;
+      }
+     
+        .InspectionReportForm {
+        display: flex;
+        flex-direction: column;
+        margin-top: 10px;
+      
+    }
+    .qasub {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+    .qasub select {
+      width: 500px;
+      margin-top: 5px;
+      outline: none;
+      padding: 3px 0px 3px 3px;
+      margin: 5px 1px 3px 0px;
+      border: 1px solid #a3ccee;
+      height: 20px;
+      align-items: center;
+      justify-content: center;
+    }
+     .hedercard{
+       height: 360px;
+     }
+     .Todate1 input{
+       width: 300px;
+       margin-top: -20px;
+     }
+.Todate1s input {
+  width: 300px;
+  margin-left: -3px;
+ 
+}
+  
+    .tearmsconditions b  {
+      margin-left: -10px;
+    }
+   .Todate1 input {
+     margin-top: 10px;
+    
+   }
+    .tearmsconditions{
+      display: flex;
+      flex-direction: column;
+      width: 300px;
+   
+    }
+  .Deliveryss{
+    margin-left: -1px;
+    margin-left: 10px;
+  }
+.closebutton{
+  margin-left: 300px
+}
+.cardcontent input {
+width: 50px;
+}
+.inpusearch {
+  width: 100px;
+}
+.cardhead {
+  padding: 1px;
+  background-color: #0069D9;
+}
+.close {
+  margin-left: 0px;
+  
+  }
+  .addcateecory {
+    margin-left: 0px;
+  } 
+  .inputofadd input {
+    width: 200px;
+  }
+     
+  .centertheupdatecard{
+    margin-left: 0px;
+  }
+}
+
+@media (max-width: 768px) {
+  .addcateecory {
+    margin-left: 0px;
+  
+  }
+  .major141 input {
+    width: 200px;
+  }
+  .major15 input {
+    width: 200px;
+  }
+  .cardcontent {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    place-items: center;
+    
+}
+
+  .catcard {
+    max-width: 800px;
+    display: grid;
+    place-content: center;
+  }
+  .centertheupdatecard {
+    margin-left: 0px;
+    display: grid;
+    place-content: center;
+    
+  }
+  .updefcard {
+   max-width: 800px;  
+  
+  }
+  .fromdate1 input {
+    display: flex; 
+ width: 300px;
+ margin-top: 10px;
+ background-color: rgb(252, 252, 252);
+ outline: none;
+
+ padding: 3px 0px 3px 3px;
+ border: 1px solid #a3ccee;   
+}
+.fromdate1 {
+    margin-left: 0px;
+}
+}
+
+
+
+@media (max-width: 1024px) {
+  .addcateecory {
+   display: grid;
+   place-content: center;
+  
+  }
+  .addcateecory {
+    margin-left: 0px;
+  
+  }
+  .major14 input {
+    width: 300px;
+  }
+  .major15 input {
+    width: 300px;
+  }
+  .cardcontent {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    place-items: center;
+    
+}
+
+  .fromdate1 input {
+    display: flex; 
+ width: 300px;
+ margin-top: 10px;
+ background-color: rgb(252, 252, 252);
+ outline: none;
+
+ padding: 3px 0px 3px 3px;
+ border: 1px solid #a3ccee;   
+}
+.fromdate1 {
+    margin-left: 0px;
+}
+  
+  .catcard {
+    max-width: 1000px;
+    display: grid;
+    place-content: center;
+  }
+  .centertheupdatecard {
+    margin-left: 0px;
+    display: grid;
+    place-content: center;
+    
+  }
+  .updefcard {
+   max-width: 1000px;  
+   display: grid;
+   place-content: center;
+  }
+     
+}
+
+
+

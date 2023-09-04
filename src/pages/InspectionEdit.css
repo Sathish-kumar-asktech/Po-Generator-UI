@@ -1,0 +1,669 @@
+.InspectionTbl {
+  min-width: 699;
+  border-radius: 20px;
+}
+.InspectionTbl th {
+  padding: 5px;
+  background-color: #3d5656;
+  color: white;
+  text-align: center;
+  font-weight: 500;
+  border: 1px solid lightgray;
+  white-space: nowrap;
+}
+.InspectionTbl td {
+  padding: 8px;
+  text-align: center;
+  font-size: 14px;
+  color: rgb(10, 7, 7);
+  border: 1px solid lightgray;
+  font-weight: 400;
+}
+
+.titlepo {
+  text-align: center;
+  color: #f3fde8;
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  font-weight: 300;
+  letter-spacing: 5px;
+  border-radius: 10px;
+  background: #134e5e; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #71b280,
+    #134e5e
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #71b280,
+    #134e5e
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
+    rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+  margin-bottom: 2px;
+  padding: 15px;
+  margin-bottom: 15px;
+}
+
+.titlemrr {
+  text-align: center;
+  color: #f3fde8;
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  font-weight: 300;
+  letter-spacing: 5px;
+  border-radius: 10px;
+  background: #348f50; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #56b4d3,
+    #348f50
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #56b4d3,
+    #348f50
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
+    rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+  margin-bottom: 2px;
+  padding: 15px;
+}
+
+.titlemie {
+  text-align: center;
+  color: #f3fde8;
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  font-weight: 300;
+  letter-spacing: 5px;
+  border-radius: 10px;
+  background: #5a3f37; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #2c7744,
+    #5a3f37
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #2c7744,
+    #5a3f37
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
+    rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+  margin-bottom: 2px;
+  padding: 15px;
+  margin-bottom: 10px;
+}
+
+.titledept {
+  text-align: center;
+  color: #f3fde8;
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  font-weight: 300;
+  letter-spacing: 5px;
+  border-radius: 10px;
+  background: #34e89e; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #0f3443,
+    #34e89e
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #0f3443,
+    #34e89e
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
+    rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+  margin-bottom: 2px;
+  padding: 15px;
+  margin-bottom: 10px;
+}
+
+.monthwisetitle {
+  text-align: center;
+  color: #f3fde8;
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  font-weight: 300;
+  letter-spacing: 5px;
+  border-radius: 10px;
+  background: #134e5e; 
+  background: -webkit-linear-gradient(
+    to right,
+    #71b280,
+    #134e5e
+  ); 
+  background: linear-gradient(
+    to right,
+    #71b280,
+    #134e5e
+  );
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
+    rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+  margin-bottom: 2px;
+  padding: 15px;
+  margin-bottom: 10px;
+  .error {
+    color: red;
+  }
+}
+
+.adbutt {
+  align-self: flex-end;
+  justify-content: flex-end;
+}
+.header {
+  text-align: center;
+  color: blue;
+}
+.Factory {
+  margin-left: 20px;
+  width: 200px;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
+.factorysearch {
+  display: flex;
+  width: 200px;
+  margin-top: 10px;
+  background-color: rgb(252, 252, 252);
+  outline: none;
+  padding: 3px 0px 3px 3px;
+  margin-top: -1px;
+  border: 1px solid #a3ccee;
+}
+.Factory select {
+  display: flex;
+  width: 150px;
+  margin-top: 10px;
+  background-color: rgb(252, 252, 252);
+  outline: none;
+  padding: 3px 0px 3px 3px;
+  border: 1px solid #a3ccee;
+}
+.buyer select {
+  display: flex;
+  width: 150px;
+  margin-top: 10px;
+  background-color: rgb(252, 252, 252);
+  outline: none;
+
+  padding: 3px 0px 3px 3px;
+  border: 1px solid #a3ccee;
+}
+.buyer {
+  margin-left: 10px;
+  width: 200px;
+  height: 20px;
+  margin-top: 10px;
+}
+.DefectType select {
+  display: flex;
+  width: 200px;
+  margin-top: 10px;
+  background-color: rgb(252, 252, 252);
+  outline: none;
+
+  padding: 3px 0px 3px 3px;
+  border: 1px solid #a3ccee;
+}
+
+.column {
+  float: left;
+  width: 50%;
+  padding: 10px;
+  height: 300px;
+}
+
+.row:after {
+  content: '';
+  display: table;
+  clear: both;
+}
+
+.DefectType {
+  margin-left: 10px;
+}
+.DefectType label {
+  margin-left: -30px;
+}
+
+.InspectionReportForm {
+  display: flex;
+  margin-top: 10px;
+  margin-left: -50px;
+  align-self: center;
+  justify-content: center;
+}
+
+.fromdatesf input {
+  display: flex;
+  width: 150px;
+  margin-top: 10px;
+  background-color: rgb(252, 252, 252);
+  outline: none;
+
+  padding: 3px 0px 3px 3px;
+  border: 1px solid #a3ccee;
+}
+.fromdatesf {
+  margin-left: 30px;
+}
+.cell1 {
+  color: red;
+}
+.Todates12 input {
+  display: flex;
+  width: 150px;
+  margin-top: 10px;
+  background-color: rgb(252, 252, 252);
+  outline: none;
+  margin-left: 2px;
+  padding: 3px 0px 3px 3px;
+  border: 1px solid #a3ccee;
+}
+.Todates12 {
+  margin-left: 20px;
+}
+
+.submitbtn {
+  margin-top: 30px;
+  margin-left: 20px;
+  width: 50px;
+}
+
+.tables1 {
+  display: flex;
+  margin-top: -10px;
+}
+.tables23 {
+  display: flex;
+}
+.tab1 {
+  min-width: 699;
+}
+.tab1 th {
+  padding: 5px;
+  background-color: #2196f3;
+  color: white;
+}
+.tab1 td {
+  padding: 5px;
+  cursor: pointer;
+  color: rgb(136, 126, 126);
+}
+.heading {
+  display: flex;
+  justify-content: space-evenly;
+}
+.insp {
+  margin-top: -40px;
+}
+.faff {
+  color: #0069d9;
+}
+.fasee {
+  color: red;
+}
+
+body {
+  background-color: #fafafa;
+}
+.Reporttb2 th {
+  padding: 5px;
+  background-color: #2196f3;
+  color: white;
+}
+.Reporttb2 td {
+  padding: 5px;
+  cursor: pointer;
+  color: rgb(136, 126, 126);
+}
+.tableerr {
+  text-align: center;
+  margin-left: 50px;
+}
+.errors {
+  color: red;
+}
+.Reporttbl {
+  display: flex;
+}
+.InspectionReportForm2 {
+  display: flex;
+  margin-top: 10px;
+  margin-left: 40px;
+}
+.inspectionrr input {
+  display: flex;
+  width: 200px;
+  margin-top: 10px;
+  background-color: rgb(252, 252, 252);
+  outline: none;
+  margin-left: 20px;
+  padding: 3px 0px 3px 3px;
+  border: 1px solid #a3ccee;
+}
+.usertype input {
+  display: flex;
+  width: 200px;
+  margin-top: 10px;
+  background-color: rgb(252, 252, 252);
+  outline: none;
+  margin-left: 20px;
+  padding: 3px 0px 3px 3px;
+  border: 1px solid #a3ccee;
+}
+.inse {
+  margin-left: 18px;
+}
+.use {
+  margin-left: 15px;
+}
+
+@media (max-width: 699px) {
+  .InspectionReportForm {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    align-self: center;
+    justify-content: center;
+    margin-left: 30px;
+  }
+
+  .Factory {
+    margin-left: 0px;
+    width: 300px;
+  }
+  .Factory select {
+    display: flex;
+    width: 300px;
+    margin-top: 10px;
+    background-color: rgb(252, 252, 252);
+    outline: none;
+    padding: 3px 0px 3px 3px;
+    border: 1px solid #a3ccee;
+  }
+  .buyer select {
+    display: flex;
+    width: 300px;
+    margin-top: 10px;
+    background-color: rgb(252, 252, 252);
+    outline: none;
+
+    padding: 3px 0px 3px 3px;
+    border: 1px solid #a3ccee;
+  }
+  .insp {
+    margin-top: 10px;
+  }
+  .buyer {
+    margin-left: 0px;
+    width: 300px;
+    margin-top: 10px;
+  }
+  .DefectType select {
+    display: flex;
+    width: 300px;
+    margin-top: 10px;
+    background-color: rgb(252, 252, 252);
+    outline: none;
+
+    padding: 3px 0px 3px 3px;
+    border: 1px solid #a3ccee;
+  }
+  .DefectType {
+    margin-left: 0px;
+  }
+  .InspectionReportForm {
+    display: flex;
+    margin-top: 20px;
+  }
+
+  .fromdatesf input {
+    display: flex;
+    width: 300px;
+    margin-top: -50px;
+    background-color: rgb(252, 252, 252);
+    outline: none;
+
+    padding: 3px 0px 3px 3px;
+    border: 1px solid #a3ccee;
+  }
+
+  .Todates12 input {
+    display: flex;
+    width: 300px;
+
+    background-color: rgb(252, 252, 252);
+    outline: none;
+
+    padding: 3px 0px 3px 3px;
+    border: 1px solid #a3ccee;
+  }
+  .Todates12 {
+    margin-left: 0px;
+  }
+  .charts {
+    margin-left: -40px;
+  }
+  .submitbtn {
+    margin-top: 30px;
+    display: grid;
+    width: 50%;
+
+    place-items: center;
+  }
+}
+@media (max-width: 320px) {
+  .InspectionReportForm {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    margin-left: -3px;
+  }
+}
+
+@media (max-width: 768px) {
+  .InspectionReportForm {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .Factory {
+    margin-left: 0px;
+    width: 300px;
+  }
+  .Factory select {
+    display: flex;
+    width: 300px;
+    margin-top: 10px;
+    background-color: rgb(252, 252, 252);
+    outline: none;
+    padding: 3px 0px 3px 3px;
+    border: 1px solid #a3ccee;
+  }
+  .buyer select {
+    display: flex;
+    width: 300px;
+    margin-top: 10px;
+    background-color: rgb(252, 252, 252);
+    outline: none;
+
+    padding: 3px 0px 3px 3px;
+    border: 1px solid #a3ccee;
+  }
+  .insp {
+    margin-top: 10px;
+  }
+  .buyer {
+    margin-left: 0px;
+    width: 300px;
+  }
+  .DefectType select {
+    display: flex;
+    width: 300px;
+    margin-top: 10px;
+    background-color: rgb(252, 252, 252);
+    outline: none;
+
+    padding: 3px 0px 3px 3px;
+    border: 1px solid #a3ccee;
+  }
+  .DefectType {
+    margin-left: 0px;
+  }
+  .InspectionReportForm {
+    display: flex;
+    margin-top: 20px;
+  }
+
+  .fromdatesf input {
+    display: flex;
+    width: 300px;
+    margin-top: 10px;
+    background-color: rgb(252, 252, 252);
+    outline: none;
+
+    padding: 3px 0px 3px 3px;
+    border: 1px solid #a3ccee;
+  }
+  .fromdatesf {
+    margin-left: 0px;
+  }
+
+  .Todates12 input {
+    display: flex;
+    width: 300px;
+    margin-top: 10px;
+    background-color: rgb(252, 252, 252);
+    outline: none;
+
+    padding: 3px 0px 3px 3px;
+    border: 1px solid #a3ccee;
+  }
+  .Todates12 {
+    margin-left: 0px;
+  }
+  .charts {
+    margin-left: -40px;
+  }
+  .submitbtn {
+    margin-top: 30px;
+    display: grid;
+    width: 50%;
+
+    place-items: center;
+  }
+}
+
+@media (max-width: 1024px) {
+  .InspectionReportForm {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    justify-content: center;
+    align-items: center;
+  }
+  .row {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .Factory {
+    margin-left: 0px;
+  }
+  .Factory select {
+    display: flex;
+    width: 300px;
+    margin-top: 10px;
+    background-color: rgb(252, 252, 252);
+    outline: none;
+    padding: 3px 0px 3px 3px;
+    border: 1px solid #a3ccee;
+  }
+  .buyer select {
+    display: flex;
+    width: 300px;
+    margin-top: 10px;
+    background-color: rgb(252, 252, 252);
+    outline: none;
+
+    padding: 3px 0px 3px 3px;
+    border: 1px solid #a3ccee;
+  }
+  .insp {
+    margin-top: 10px;
+  }
+  .buyer {
+    margin-left: 0px;
+    width: 300px;
+  }
+  .DefectType select {
+    display: flex;
+    width: 300px;
+    margin-top: 10px;
+    background-color: rgb(252, 252, 252);
+    outline: none;
+
+    padding: 3px 0px 3px 3px;
+    border: 1px solid #a3ccee;
+  }
+  .DefectType {
+    margin-left: 0px;
+  }
+  .InspectionReportForm {
+    display: flex;
+    margin-top: 20px;
+  }
+
+  .fromdatesf input {
+    display: flex;
+    width: 300px;
+    margin-top: 10px;
+    background-color: rgb(252, 252, 252);
+    outline: none;
+
+    padding: 3px 0px 3px 3px;
+    border: 1px solid #a3ccee;
+  }
+  .fromdatesf {
+    margin-left: 0px;
+  }
+
+  .Todates12 input {
+    display: flex;
+    width: 300px;
+    margin-top: 10px;
+    background-color: rgb(252, 252, 252);
+    outline: none;
+
+    padding: 3px 0px 3px 3px;
+    border: 1px solid #a3ccee;
+  }
+  .Todates12 {
+    margin-left: 0px;
+  }
+  .charts {
+    display: flex;
+    align-items: center;
+  }
+  .submitbtn {
+    margin-top: 30px;
+    display: grid;
+    width: 50%;
+
+    place-items: center;
+  }
+}

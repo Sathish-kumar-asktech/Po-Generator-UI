@@ -1,0 +1,102 @@
+.logintext {
+  z-index: 2;
+  display: block;
+  width: fit-content;
+  height: auto;
+  outline: none;
+  border: none;
+  background-color: inherit;
+  border-radius: 10px;
+  font-size: 14px;
+  text-transform: uppercase;
+  font-weight: bold;
+  position: relative;
+  cursor: auto;
+  text-align: center;
+  margin: auto;
+  color: #1F8A70 !important;
+  white-space: nowrap;
+  padding: 15px;
+  margin-top: 50px;
+}
+
+.logintext::before {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 100%;
+  z-index: 3;
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  transform: scaleX(0.2) scaleY(0.5) translate(250%, 100%);
+  border-top: solid 2px #333;
+  border-left: solid 4px #333;
+  transition: all .4s ease-in-out;
+  border-radius: 10px;
+}
+
+.logintext::after {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 100%;
+  z-index: 3;
+  position: absolute;
+  top: 0;
+  left: 0;
+  transform: translate(-50%, -50%) scaleX(0.2) scaleY(0.5);
+  border-bottom: solid 2px #333;
+  border-right: solid 4px #333;
+  transition: all .4s ease-in-out;  
+  border-radius: 10px;
+}
+
+.logintext:hover::before {
+  transform: translate(0%, 0%) scaleX(1) scaleY(1);
+  border-top: solid 1px #333;
+  border-left: solid 1px #333;  
+  border-radius: 10px;
+}
+.logintext:hover::after {
+  transform: scaleX(1) scaleY(1) translate(0%, 0%);
+  border-bottom: solid 1px #333;
+  border-right: solid 1px #333;  
+  border-radius: 10px;
+}
+
+.css-90aq3a-MuiGrid-root
+{
+  margin-top: 0;
+  margin-left: 0;
+  width: 100%;
+}
+
+/* YourComponent.css */
+
+.animation-container {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  height: auto;
+}
+
+.animated-image {
+  width: 100%;
+  height: auto;
+  margin: auto;
+  mix-blend-mode: multiply;
+  animation: moveUpDown 2s ease-in-out infinite; /* Adjust animation properties as needed */
+}
+
+@keyframes moveUpDown {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px); /* Adjust the amount and direction of movement */
+  }
+  100% {
+    transform: translateY(0);
+  }
+}

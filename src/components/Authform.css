@@ -1,0 +1,31 @@
+.errors {
+  color: red;
+}
+
+/* .imgaesty img{
+    align-self: center;
+    justify-content: center;
+    width: 150px;
+    height: 150px;
+} */
+.imgaesty img {
+  height: 100px;
+  width: 180px;
+  margin-left: 100px;
+}
+.imgaesty {
+  display: flex;
+}
+@media (max-width: 699px) {
+  .imgaesty img {
+    height: 100px;
+    width: 200px;
+    margin-left: 70px;
+  }
+}
+
+/* 
+.authpage
+{
+  max-width: 95vw;
+} */
